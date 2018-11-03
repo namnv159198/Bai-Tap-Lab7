@@ -1,0 +1,137 @@
+/* croll */
+.croll{
+    border: 1px solid black;
+    margin-left: 90%;
+    border-radius: 5px;
+    background: lightblue;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+.croll .kt-croll img {
+    width: 16px;
+    float: left;
+    background: black;
+}
+
+.croll .kt-croll {
+    margin-left: 10%;
+    width: 108px;
+}
+
+/* header */
+.header {
+    border: 2px solid black;
+    background: lightblue;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.logo {
+    float: left;
+    margin: 20px 50px 10px 200px;
+}
+
+.header .logo img {
+    margin-left: 10px;
+    width: 70px;
+    height: auto;
+    float: left;
+}
+
+.name-logo {
+    margin: 20px 10px auto 100px;
+    width: auto;
+    font-size: 30px;
+}
+
+.home {
+    font-size: 19px;
+    margin-left: 75%;
+    width: 400px;
+    margin-top: 40px;
+    height: auto;
+}
+
+.home .kt {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Body 1 */
+.body-1 {
+    border: 1px solid black;
+    height: 70px;
+    background: cornflowerblue;
+    color: white;
+}
+
+.main1-body-1 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.main2-body-1 {
+    margin-left: 65%;
+}
+
+/* Body 2 */
+.body-2 {
+    border: 1px solid black;
+    height: auto;
+}
+
+.body-2 .main-content {
+    margin: 10px 10% 10px 10%;
+    float: left;
+}
+
+.body-2 .iteam {
+    margin-left: 10%;
+    float: left;
+    width: 22%;
+    margin-top: 40px;
+}
+
+.body-2 .tieude {
+    font-size: 20px;
+    text-decoration: underline;
+    color: blue;
+}
+
+.thumbnail .noidung {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+/*.thumbnail .pic-iteam img {*/
+/*width: 190px;*/
+/*}*/
+
+/* footer */
+.footer {
+    border: 1px solid black;
+    background: cornflowerblue;
+}
+
+.footer .nd-footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* end-tab */
+.end-tab {
+    border: 1px solid black;
+    background: mediumorchid;
+}
+
+.end-tab .nd-end-tab {
+    margin-left: 99%;
+}
+
+.clear {
+    clear: both;
+}
